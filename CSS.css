@@ -1,0 +1,86 @@
+body {
+    background-color: #dadfe1;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+}
+
+.liContainer {
+    display: flex;
+    justify-content: space-between;
+}
+
+h1{
+    text-align: center;
+    color: #292929;
+    font-size: 1em;
+}
+p {
+    text-align: center;
+    color: #292929;
+    display: none;
+    font-size: 1em;
+}
+
+ul {
+    width: 30vw;
+    margin: 0 auto;
+    padding: 0;
+    border: 0;
+}
+
+li {
+    color: #292929;
+    background-color: #FFFACD;
+    width: 30vw;
+    list-style: none;
+    word-break: break-all;
+    user-select: none;
+}
+
+li:hover {
+    background-color: aliceblue;
+    cursor: pointer;
+}
+
+#addItems {
+    text-align: center;
+    width: 30vw;
+    margin: 0 auto;
+}
+
+.done {
+    text-decoration: line-through;
+    color: color:#292929;
+}
+
+.buttonDelete,
+#enter {
+    color: #292929;
+    background-color: #fefefe;
+    border: 0;
+    font-family: 'Roboto', sans-serif;
+    font-size: 0.8em;
+}
+
+.buttonDelete:hover,
+#enter:hover {
+    cursor: pointer;
+    background-color: #D4D4D4;
+    color: #292929;
+}
+
+#enter {
+    margin-bottom: 5px;
+}
+
+#userInput[type=text],
+#userInput:focus,
+#userInput::placeholder {
+    color: #292929;
+    background-color: #fefefe;
+    border: 0;
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    font-size: 0.8em;
+}
